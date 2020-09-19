@@ -19,7 +19,7 @@
 <h2>Practice</h2>
 <pre>
 <?php
-print(1+1);
+print(10%5);
 ?>
 </pre>
 </main>
