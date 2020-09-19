@@ -18,8 +18,10 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<?php print((100+1050+200))*1.10;
-?>
+<!-- 消費税10%で計算 -->
+<?php $sum = 100+1050+200; ?>
+合計金額は:<?php print($sum); ?>円です
+税込価格は:<?php print($sum*1.10); ?>円です
 </pre>
 </main>
 </body>    
