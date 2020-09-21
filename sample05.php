@@ -20,8 +20,9 @@
 <pre>
 <!-- 消費税10%で計算 -->
 <?php $sum = 100+1050+200; ?>
+<?php $tax = 1.10; ?>
 合計金額は:<?php print($sum); ?>円です
-税込価格は:<?php print($sum*1.10); ?>円です
+税込価格は:<?php print($sum*$tax); ?>円です
 </pre>
 </main>
 </body>    
